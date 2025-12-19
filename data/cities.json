@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "DE",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Allogny",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2025-05-11T07:56:50.697Z",
+      "notes": "",
+      "position": {
+        "lat": "47.22186743217758",
+        "lng": "2.3291015625000004"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Opoczno",
+      "country": "Poland",
+      "emoji": "PL",
+      "date": "2025-05-11T08:00:17.224Z",
+      "notes": "",
+      "position": {
+        "lat": "51.41650790295262",
+        "lng": "20.390625000000004"
+      },
+      "id": 98443199
+    }
+  ]
+}
