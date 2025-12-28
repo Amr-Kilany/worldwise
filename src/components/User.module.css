@@ -40,3 +40,19 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+/* FIX: Pin widget to top-right of screen and hide text on mobile */
+@media (max-width: 900px) {
+  .user {
+    position: fixed; /* Keeps it safe from scrolling map */
+    top: 10px;
+    right: 10px;
+    padding: 0.8rem;
+    gap: 1rem;
+  }
+  
+  /* IMPORTANT: Hide the "Welcome, Name" text on mobile */
+  .user span { 
+    display: none; 
+  }
+}

@@ -5,3 +5,11 @@
   display: flex;
   position: relative;
 }
+
+/* FIX: Stack vertically and remove padding to maximize space */
+@media (max-width: 900px) {
+  .app {
+    flex-direction: column;
+    padding: 0;
+  }
+}

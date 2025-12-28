@@ -22,7 +22,21 @@
   border-radius: 5px;
 }
 
-/* CSS Modules feature */
 .nav a:global(.active) {
   background-color: var(--color-dark--0);
+}
+
+/* FIX: Ensure buttons fit on very small screens */
+@media (max-width: 600px) {
+  .nav {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav a:link,
+  .nav a:visited {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+  }
 }

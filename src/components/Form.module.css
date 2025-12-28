@@ -27,13 +27,13 @@
   font-size: 2.8rem;
   width: auto;
   height: auto;
-  border-radius: 4px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  transition: transform 0.2s ease; /* Smooth hover effect */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
 }
 
 .flag:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  transform: scale(1.05);
 }
 
 .form.loading {
@@ -50,4 +50,13 @@
 :global(.react-datepicker) {
   font-family: inherit;
   font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .form {
+    padding: 1.5rem 2rem;
+  }
+  .flag {
+    width: 20px;
+  }
 }

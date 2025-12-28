@@ -10,3 +10,9 @@
   align-content: start;
   gap: 1.6rem;
 }
+
+@media (max-width: 900px) {
+  .countryList {
+    height: 35vh;
+  }
+}

@@ -49,11 +49,18 @@
 .emoji {
   width: 30px;
   height: auto;
-  border-radius: 4px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  transition: transform 0.2s ease; /* Smooth hover effect */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
 }
 
 .emoji:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .city {
+    max-height: 100%; /* Allow full scroll on mobile */
+    padding: 1.5rem 2rem;
+  }
 }

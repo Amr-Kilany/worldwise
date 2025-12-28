@@ -17,3 +17,16 @@
   font-size: 1.2rem;
   color: var(--color-light--1);
 }
+
+@media (max-width: 900px) {
+  .sidebar {
+    flex-basis: auto;
+    width: 100%;
+    height: auto;
+    padding: 2rem 3rem;
+  }
+
+  .footer {
+    display: none; /* Hide footer on mobile to save space */
+  }
+}
