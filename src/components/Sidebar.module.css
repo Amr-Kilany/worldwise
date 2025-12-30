@@ -20,13 +20,14 @@
 
 @media (max-width: 900px) {
   .sidebar {
-    flex-basis: auto;
     width: 100%;
-    height: auto;
-    padding: 2rem 3rem;
+    height: auto; /* Allow height to shrink */
+    flex: 0 0 auto; /* Don't grow, just fit content */
+    padding: 1rem 2rem;
+    align-items: flex-start; /* Logo left aligned */
   }
 
   .footer {
-    display: none; /* Hide footer on mobile to save space */
+    display: none;
   }
 }

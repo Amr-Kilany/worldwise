@@ -14,8 +14,10 @@
   width: 0;
 }
 
+/* FIX: Use max-height so the list shrinks if there are few items */
 @media (max-width: 900px) {
   .cityList {
-    height: 35vh; /* Reduce height on mobile */
+    height: auto;
+    max-height: 35vh; 
   }
 }

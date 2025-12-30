@@ -26,12 +26,11 @@
   background-color: var(--color-dark--0);
 }
 
-/* FIX: Ensure buttons fit on very small screens */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .nav {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
+    align-self: center; /* FIX: Keep the nav buttons centered */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   .nav a:link,

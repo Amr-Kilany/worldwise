@@ -9,7 +9,6 @@
   height: 100%;
 }
 
-/* LEAFLET CUSTOMIZATIONS */
 :global(.leaflet-popup .leaflet-popup-content-wrapper) {
   background-color: var(--color-dark--1);
   color: var(--color-light--2);
@@ -37,8 +36,11 @@
   border-left: 5px solid var(--color-brand--2);
 }
 
+/* FIX: Map grows to fill remaining space instead of fixed height */
 @media (max-width: 900px) {
   .mapContainer {
-    height: 50vh; /* Force map to take half screen on mobile stack */
+    height: auto;
+    flex: 1; /* This pushes the map to fill the screen */
+    min-height: 40vh; /* Ensure it never gets too small */
   }
 }

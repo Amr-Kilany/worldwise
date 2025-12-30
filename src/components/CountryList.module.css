@@ -11,8 +11,10 @@
   gap: 1.6rem;
 }
 
+/* FIX: Shrink to fit content on mobile */
 @media (max-width: 900px) {
   .countryList {
-    height: 35vh;
+    height: auto;
+    max-height: 35vh;
   }
 }
